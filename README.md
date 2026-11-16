@@ -16,9 +16,9 @@
 
 ## What is this?
 
-A beginner-friendly Jupyter notebook that teaches the fundamentals of data analysis using the **WHO Global Tuberculosis Report 2026** database — freshly published, real, and openly available.
+A beginner-friendly Jupyter notebook that teaches the fundamentals of data analysis using the **WHO Global Tuberculosis Report 2026** database, freshly published, real, and openly available.
 
-You'll `wget` the data straight from [WHO&#39;s own GitHub repo](https://github.com/GTB-TME/gtbreport2026), tour the **data dictionary**, and answer **10 questions about tuberculosis in Nigeria** — a country at the centre of a dramatic 2025–2026 TB funding shock. Along the way you'll learn filtering, ranking, shares, percentage change, `idxmax`/`idxmin`, missing-data handling, and how to catch a real data-entry error.
+You'll `wget` the data straight from [WHO&#39;s own GitHub repo](https://github.com/GTB-TME/gtbreport2026), tour the **data dictionary**, and answer **10 questions about tuberculosis in Nigeria,** a country at the centre of a dramatic 2025–2026 TB funding shock. Along the way you'll learn filtering, ranking, shares, percentage change, `idxmax`/`idxmin`, missing-data handling, and how to catch a real data-entry error.
 
 **No coding experience assumed.** Every question comes with:
 
@@ -41,7 +41,7 @@ You'll `wget` the data straight from [WHO&#39;s own GitHub repo](https://github.
 | 7  | Which budget line took the biggest absolute cut, 2025 → 2026?                                      | `idxmin` + dictionary reading |
 | 8  | How did the number of molecular rapid tests performed change from 2024 to 2025?                     | choosing the right column       |
 | 9  | In the latest reported treatment cohort, which unfavourable outcome was most common?                | handling missing data           |
-| 10 | In which cohort year does "failed" exceed "died" — a likely data-entry swap? 🕵️                  | data-quality detective work     |
+| 10 | In which cohort year does "failed" exceed "died"?                                                  | data-quality detective work     |
 
 …plus **5 bonus challenges** (treatment coverage, child preventive therapy, notification growth, age–sex patterns, and the budget-vs-reality funding gap).
 

@@ -1,0 +1,8 @@
+# Data is fetched at runtime by wget from WHO's official repo — never commit it
+data/
+
+# Python / Jupyter noise
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
