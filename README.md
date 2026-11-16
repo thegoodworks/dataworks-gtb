@@ -1,6 +1,6 @@
 <img src="assets/dataworks_banner.svg" alt="dataworks — learn data analysis with real-world open data, an initiative of thegoodworks.ng" width="100%" />
 
-# dataworks · TB Starter
+# dataworks · GTB Starter
 
 **Learn data analysis with real-world open data.**
 
@@ -52,10 +52,10 @@ You'll `wget` the data straight from [WHO&#39;s own GitHub repo](https://github.
 **Option B: local:**
 
 ```bash
-git clone https://github.com/thegoodworks/dataworks-tb.git
-cd dataworks-tb
+git clone https://github.com/thegoodworks/dataworks-gtb.git
+cd dataworks-gtb
 pip install pandas matplotlib jupyter
-jupyter notebook TB_starter.ipynb
+jupyter notebook GTB_starter.ipynb
 ```
 
 Run the cells top to bottom. When you reach a ✏️ exercise, pick an option (A–D), replace the `___` in the code, and run. Stuck? Read the hint, `lookup()` the column in the dictionary, or peek at the [solutions](TB_starter_solutions.ipynb).
@@ -63,8 +63,8 @@ Run the cells top to bottom. When you reach a ✏️ exercise, pick an option (A
 ## Repo layout
 
 ```
-TB_starter.ipynb              ← the workbook (start here)
-TB_starter_solutions.ipynb    ← fully worked answers + explanations
+GTB_starter.ipynb              ← the workbook (start here)
+GTB_starter_solutions.ipynb    ← fully worked answers + explanations
 assets/dataworks_banner.svg   ← branding
 data/                         ← created at runtime by wget (not committed)
 ```
